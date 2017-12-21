@@ -1,0 +1,14 @@
+{:deps {org.clojure/clojurescript {:mvn/version "1.9.946"}}
+
+ :aliases {:repl
+           {:extra-deps
+            {;; Figwheel ClojureScript REPL
+             com.cemerick/piggieback {:mvn/version "0.2.2"
+                                      :exclusions  [com.google.javascript/closure-compiler]}
+             figwheel-sidecar        {:mvn/version "0.5.14"
+                                      :exclusions  [com.google.javascript/closure-compiler]}
+
+             ;; CIDER compatible nREPL
+             cider/cider-nrepl       {:mvn/version "0.15.1"}
+             org.clojure/tools.nrepl {:mvn/version "0.2.12"}
+             refactor-nrepl          {:mvn/version "2.3.1"}}}}}
