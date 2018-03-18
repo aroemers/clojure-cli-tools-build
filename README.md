@@ -7,4 +7,4 @@ See the [blog post](http://www.functionalbytes.nl/clojure/nodejs/figwheel/repl/c
 
 1. Install [Clojure CLI tools](https://clojure.org/guides/deps_and_cli).
 
-2. Execute shell commands like `clojure build.clj compile watch` or `clj -R:repl figwheel`.
+2. Execute shell commands like `clojure build.clj compile watch` or `clj -R:repl build.clj figwheel`.
